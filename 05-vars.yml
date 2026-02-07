@@ -9,5 +9,5 @@
   - name: print variables
     vars:
       COURSE: ansible
-      ansible.builtin.debug:
+    ansible.builtin.debug:
         msg: "Course is: {{ COURSE }}, Trainer is: {{ TRAINER }}"
