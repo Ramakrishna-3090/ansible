@@ -1,5 +1,5 @@
 - name: Helloworld
-  hosts: frontend
+  hosts: web
   tasks:
   - name: print Helloworld
     ansible.builtin.debug:
